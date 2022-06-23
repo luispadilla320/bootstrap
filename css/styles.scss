@@ -1,0 +1,17 @@
+$color-hover: green;
+$font-color: white;
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: $font-color;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+a:hover {
+    color: $color-hover;
+}

@@ -4,37 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/styles.css">
-        <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
     <title>Pulques La Gloria</title>
 </head>
+
 <body class="text-white bg-black">
-    <header class="encabezado container p-3 m-6">
-        <div class="row row-cols-2">
-            <div class="col-md- col-sm-">
-                <img src="../img/logo.png" alt="logo" class="encabezado-img img-fluid">
-                <a href="#" class="navbar-button">☰</a>
+    <header class="container-xl">
+        <div class="row row-cols-2 justify-content-center">
+            <div class="col-md-3 py-4">
+                <img src="../img/logo.png" alt="logo" class="logo img-fluid">
             </div>
-            <div class="col-md- col-sm-">
-                <nav id="main-menu" class="navbar">
+            <div class="col-md-7 d-none d-md-grid">
+                <nav id="main-menu" class="fs-3 py-5 px-5 fw-light">
                     <ul>
                         <a href="../index.html">Inicio</a>
-                        <a href="html/historia.html">Historia</a>
-                        <a href="html/el_pulque.html">El Pulque</a>
-                        <a href="html/productos.html">Productos</a>
-                        <a href="html/contacto.html">Contacto</a>
-                    </ul>
-                </nav>
-                <nav id="side-menu" class="navbar .d-block .d-sm-none">
-                    <ul>
-                        <a href="index.html">Inicio</a>
-                        <a href="html/historia.html">Historia</a>
-                        <a href="html/el_pulque.html">El Pulque</a>
-                        <a href="html/productos.html">Productos</a>
-                        <a href="html/contacto.html">Contacto</a>
+                        <a href="historia.html">Historia</a>
+                        <a href="el_pulque.html">El Pulque</a>
+                        <a href="productos.html">Productos</a>
+                        <a href="contacto.html">Contacto</a>
                     </ul>
                 </nav>
             </div>
@@ -42,33 +34,35 @@
     </header>
 
     <article class="main">
-        <h2>Nuestra Historia</h2>
+        <h2 class="display-2 text-center mb-5">Nuestra Historia</h2>
+
         
-        <div class="container-fluid m-5 p-5">
-            
-            <div class="historia row row-cols-2">
-                <div class="col-sm- col-md-  d-flex justify-content-center">
-                    <img src="../img/cuadro.png" alt="pintura" class="img-fluid">
-                </div>
-                <div class="col">
-                    <p class="fs-5">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit</p>
+        <div class="container-xl my-5">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <img src="../img/cuadro.png" alt="pintura" class="img-fluid ">
                 </div>    
-            </div>    
+                <div class="col-md-7 ps-3">
+                    <p class="fs-4 fw-light">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio unde consectetur nihil. Facilis ullam adipisci quod corporis! Odit, consequatur officiis. Repellat rerum nulla alias provident neque repudiandae a facere ab.</p>
+                </div>
+            </div>
         </div>
         
-        <div class="historia row row-cols-2 p-5 m-3 d-flex justify-content-center">
-            <div class="col-sm col-md">
-                <p class="fs-5 text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        <div class="container-xl my-5">
+            <div class="row">
+                <div class="col-md-9 ">
+                    <p class="fs-4 fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt labore voluptate culpa deserunt nobis magnam maiores atque esse, optio delectus eaque fugiat magni excepturi ex animi itaque dignissimos sed molestiae!</p>
+                </div>
+                <div class="col-md-3 ps-4">
+                    <img src="../img/antigua.png" alt="foto antigua" class="img-fluid ">
+                </div>
             </div>
-            <div class="col-sm col-md">
-                <img src="../img/antigua.png" alt="foto antigua" class="img-fluid">
-            </div>
-            
-            
         </div>
     </article>
-    <footer class="text-center p-4  m-1 fs-5">
-        <p>Pulqueria La Gloria, Av. Cuauhtémoc #153, Cuidad Nezahualcóyotl, Edo. de México.</p>
-    </footer>    
+    
+    <footer> 
+        <p class="text-center fs-4 fw-light">Pulquería La Gloria, Av. Cuauhtémoc #153, Cuidad Nezahualcóyotl, Edo. de México.</p>
+    </footer>   
+
 </body>
 </html>
